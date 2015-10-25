@@ -1,0 +1,44 @@
+.background    {  background:  url(art/background.jpg);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(87, 255, 31); }
+.wall          { background: rgb(196, 70, 61);   }
+
+.actor  { position: absolute;  }
+.shard   {width:25px;
+           height:24px;
+		   background-image: url(art/starShard.png); }
+.spikel { width:20px;
+           height:20px;
+		   background-image: url(art/spikeLeft.png);}
+.spiker { width:20px;
+           height:20px;
+		   background-image: url(art/spikeRight.png);}
+.spiket { width:40px;
+           height:20px;
+		   background-image: url(art/spikeTop.png);}
+.player { width:16;
+		height: 35;
+		background-image: url(art/player.png);}
+.enemy{ width:25px;
+           height:20px;
+		   background-image: url(art/enemy.png);}
+		  
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+background-image: url(art/lava.gif)
+}
+.won .player {
+ background-image: url(art/win.gif)
+}
+
+p{	color: black;}
